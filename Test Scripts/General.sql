@@ -8,9 +8,6 @@ LEFT JOIN routingmethods rm
 	AND rm.methodid = r.methodid
 WHERE rm.partid = 'SH0001.CGR.CGR'
 
-SELECT * FROM routingoperations r
-WHERE r.partid = 'SH0001.CGR.CGR'
-
 UPDATE routingmethods
 SET description = 'TEST010'
 FROM routingoperations ro
